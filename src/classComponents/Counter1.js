@@ -2,7 +2,7 @@ import { Component } from "react";
 import '../sass/css/main.min.css';
 import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
-export default class Counter extends Component {
+export default class Counter1 extends Component {
     constructor(){
         super();
         this.state = {
@@ -30,6 +30,7 @@ export default class Counter extends Component {
         return (
             <div className="container-sm bg-primary rounded text-center py-5 mt-4 text-light">
                 <p className="display-6">Counter App</p>
+                <p>Using Class Components</p>
                 <h2 className="h1">{this.state.count}</h2>
                 <div className="btn-group btn-group-lg mt-2">
                     <button 
