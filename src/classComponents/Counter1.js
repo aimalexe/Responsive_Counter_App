@@ -1,7 +1,4 @@
 import { Component } from "react";
-import '../sass/css/main.min.css';
-import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
-
 export default class Counter1 extends Component {
     constructor(){
         super();

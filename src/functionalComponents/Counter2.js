@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import '../sass/css/main.min.css';
-import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 
 const Counter2 = () => {
     const [ count, setCount ] = useState(5);
